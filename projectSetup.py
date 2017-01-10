@@ -49,8 +49,8 @@ def open_project(path):
     os.system(openSublime)
 
     os.chdir(path)
-    #openFolder = 'start .'
-    #os.system(openFolder)
+    openFolder = 'start .'
+    os.system(openFolder)
     browserSync = 'browser-sync start --server --files "js/*.js"'
     os.system(browserSync)
 
